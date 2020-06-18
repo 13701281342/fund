@@ -12,5 +12,10 @@ import com.baomidou.mybatisplus.mapper.BaseMapper;
  * @since 2020-06-16
  */
 public interface EmployeeMapper extends BaseMapper<Employee> {
+    /**
+     * 自定义的全局操作
+     */
+    int deleteAll();
+
 
 }

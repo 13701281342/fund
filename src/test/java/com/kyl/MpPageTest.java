@@ -74,4 +74,15 @@ public class MpPageTest {
         int count = employeeMapper.updateById(employee);
         System.out.println("执行条数："+count);
     }
+
+
+    /**
+     * 测试自定义的全局操作 deleteAll
+     */
+    @Test
+    public void testMysqlInjector(){
+        Integer count = employeeMapper.deleteAll();
+        System.out.println("执行条数："+count);
+    }
+
 }

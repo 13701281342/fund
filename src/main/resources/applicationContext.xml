@@ -64,7 +64,7 @@
 				<!--注册执行分析查询，防止delete和update 对权标的操作，不建议在生产环境使用-->
 				<bean class="com.baomidou.mybatisplus.plugins.SqlExplainInterceptor">
 					<!--如果发现当前是对全表的删除或更新操作，它就会停止当前操作-->
-					<property name="stopProceed" value="true"/>
+					<!--<property name="stopProceed" value="true"/>-->
 				</bean>
 				<!--注册性能分析插件-->
 				<bean class="com.baomidou.mybatisplus.plugins.PerformanceInterceptor">
@@ -83,7 +83,6 @@
 		<property name="basePackage" value="com.kyl.fund.*.mapper"/>
 	</bean>
 
-
 	<!-- 定义mybatsiPlus的全局策略配置，例如表前缀或主键生成方式,然后在sqlSessionFactoryBean中注入globalConfiguration-->
 	<bean id="globalConfiguration" class="com.baomidou.mybatisplus.entity.GlobalConfiguration">
 		<!-- 配置字段名映射策略，下划线匹配驼峰。在mybatisPlus2.3以后，默认值为true-->
@@ -92,9 +91,13 @@
 		<property name="idType" value="0"/>
 		<!--全局的表前缀配置策略-->
 		<property name="tablePrefix" value="kyl_"/>
+
+		<!--注入自定义的全局操作-->
+		<property name="sqlInjector" ref="mysqlInjector"/>
 	</bean>
 
-
+	<!--自定义注入器-->
+	<bean id="mysqlInjector" class="com.kyl.fund.injector.MysqlInjector"/>
 
 
 </beans>
