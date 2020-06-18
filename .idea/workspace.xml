@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77ce8959-7612-4c37-842a-c63efa719ea7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/kyl/MpPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kyl/fund/employee_manager/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kyl/fund/employee_manager/entity/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/kyl/fund/employee_manager/mapper/EmployeeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/kyl/fund/employee_manager/mapper/EmployeeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kyl/MpPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kyl/MpPageTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,33 +52,33 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="31" />
+          <entry key="java" value="35" />
           <entry key="properties" value="4" />
-          <entry key="xml" value="17" />
+          <entry key="xml" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="31" />
+          <entry key="JAVA" value="35" />
           <entry key="Properties" value="4" />
-          <entry key="XML" value="17" />
+          <entry key="XML" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="8" />
-          <entry key="java" value="2841" />
+          <entry key="java" value="3509" />
           <entry key="properties" value="9" />
-          <entry key="xml" value="463" />
+          <entry key="xml" value="786" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2841" />
+          <entry key="JAVA" value="3509" />
           <entry key="PLAIN_TEXT" value="8" />
           <entry key="Properties" value="9" />
-          <entry key="XML" value="463" />
+          <entry key="XML" value="786" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
@@ -91,29 +92,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="63" column="19" lean-forward="true" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/kyl/MpPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="68" selection-start-line="28" selection-start-column="68" selection-end-line="28" selection-end-column="68" />
+            <state relative-caret-position="253">
+              <caret line="64" column="34" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kyl/fund/employee_manager/entity/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="83" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="83" />
+            <state relative-caret-position="379">
+              <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+              <folding>
+                <element signature="e#1089#1090#0" expanded="true" />
+                <element signature="e#1119#1120#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-support/2.3/mybatis-plus-support-2.3-sources.jar!/com/baomidou/mybatisplus/mapper/BaseMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="127" column="12" selection-start-line="127" selection-start-column="12" selection-end-line="127" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="386">
+              <caret line="76" column="62" lean-forward="true" selection-start-line="76" selection-start-column="62" selection-end-line="76" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -156,6 +173,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
         <option value="$PROJECT_DIR$/src/test/java/com/kyl/MpSelectTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/kyl/fund/employee_manager/mapper/EmployeeMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kyl/fund/employee_manager/entity/Employee.java" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/kyl/MpPageTest.java" />
       </list>
@@ -216,6 +235,63 @@
               <item name="fund" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fund" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fund" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fund" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fund" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="kyl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fund" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fund" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="kyl" type="462c0819:PsiDirectoryNode" />
+              <item name="fund" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fund" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fund" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="kyl" type="462c0819:PsiDirectoryNode" />
+              <item name="fund" type="462c0819:PsiDirectoryNode" />
+              <item name="employee_manager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fund" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fund" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="kyl" type="462c0819:PsiDirectoryNode" />
+              <item name="fund" type="462c0819:PsiDirectoryNode" />
+              <item name="employee_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fund" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fund" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -230,31 +306,50 @@
               <item name="fund" type="b2602c69:ProjectViewProjectNode" />
               <item name="fund" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fund" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fund" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fund" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fund" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fund" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fund" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="kyl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fund" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fund" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="kyl" type="462c0819:PsiDirectoryNode" />
+              <item name="fund" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fund" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fund" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="kyl" type="462c0819:PsiDirectoryNode" />
+              <item name="fund" type="462c0819:PsiDirectoryNode" />
+              <item name="employee_manager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fund" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fund" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="kyl" type="462c0819:PsiDirectoryNode" />
+              <item name="fund" type="462c0819:PsiDirectoryNode" />
+              <item name="employee_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fund" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fund" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -267,7 +362,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592472937493" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592476108138" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="D:/pinming" />
@@ -295,7 +390,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MpPageTest.testPage">
+  <component name="RunManager" selected="JUnit.MpPageTest.testOptimisticLocker">
+    <configuration name="MpPageTest.testOptimisticLocker" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fund-git" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kyl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kyl" />
+      <option name="MAIN_CLASS_NAME" value="com.kyl.MpPageTest" />
+      <option name="METHOD_NAME" value="testOptimisticLocker" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MpPageTest.testPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="fund-git" />
       <extension name="coverage">
@@ -312,7 +423,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MpSelectTest.testAR_selectList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MpPageTest.testSQLExplain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="fund-git" />
       <extension name="coverage">
         <pattern>
@@ -321,14 +432,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.kyl" />
-      <option name="MAIN_CLASS_NAME" value="com.kyl.MpSelectTest" />
-      <option name="METHOD_NAME" value="testAR_selectList" />
+      <option name="MAIN_CLASS_NAME" value="com.kyl.MpPageTest" />
+      <option name="METHOD_NAME" value="testSQLExplain" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MpSelectTest.testAR_selectListWhereCluse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MpPageTest.testSqlPerformance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="fund-git" />
       <extension name="coverage">
         <pattern>
@@ -337,24 +448,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.kyl" />
-      <option name="MAIN_CLASS_NAME" value="com.kyl.MpSelectTest" />
-      <option name="METHOD_NAME" value="testAR_selectListWhereCluse" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MpSelectTest.testAR_selectOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="fund-git" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kyl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kyl" />
-      <option name="MAIN_CLASS_NAME" value="com.kyl.MpSelectTest" />
-      <option name="METHOD_NAME" value="testAR_selectOne" />
+      <option name="MAIN_CLASS_NAME" value="com.kyl.MpPageTest" />
+      <option name="METHOD_NAME" value="testSqlPerformance" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -443,19 +538,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.tomcat-8.5" />
-      <item itemvalue="JUnit.MpSelectTest.testAR_selectList" />
-      <item itemvalue="JUnit.MpSelectTest.testAR_selectListWhereCluse" />
-      <item itemvalue="JUnit.MpSelectTest.testAR_selectOne" />
       <item itemvalue="JUnit.MpSelectTest.testAR_selectPage" />
       <item itemvalue="JUnit.MpPageTest.testPage" />
+      <item itemvalue="JUnit.MpPageTest.testSQLExplain" />
+      <item itemvalue="JUnit.MpPageTest.testSqlPerformance" />
+      <item itemvalue="JUnit.MpPageTest.testOptimisticLocker" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MpPageTest.testOptimisticLocker" />
+        <item itemvalue="JUnit.MpPageTest.testSqlPerformance" />
+        <item itemvalue="JUnit.MpPageTest.testSQLExplain" />
         <item itemvalue="JUnit.MpPageTest.testPage" />
         <item itemvalue="JUnit.MpSelectTest.testAR_selectPage" />
-        <item itemvalue="JUnit.MpSelectTest.testAR_selectOne" />
-        <item itemvalue="JUnit.MpSelectTest.testAR_selectListWhereCluse" />
-        <item itemvalue="JUnit.MpSelectTest.testAR_selectList" />
       </list>
     </recent_temporary>
   </component>
@@ -470,7 +565,7 @@
       <option name="presentableId" value="Default" />
       <updated>1591660584030</updated>
       <workItem from="1591660586195" duration="4565000" />
-      <workItem from="1592471272659" duration="1663000" />
+      <workItem from="1592471272659" duration="4831000" />
     </task>
     <task id="LOCAL-00001" summary="feat(添加控制台日志输出): 添加控制台日志输出&#10;&#10;添加控制台日志输出">
       <created>1592455460240</created>
@@ -483,39 +578,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MpSelectTest_testAR_selectPage - 2020.06.18 at 16h 55m 00s.xml">
-      <configuration name="MpSelectTest.testAR_selectPage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MpSelectTest_testAR_selectPage - 2020.06.18 at 16h 55m 39s.xml">
-      <configuration name="MpSelectTest.testAR_selectPage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MpSelectTest_testAR_selectPage - 2020.06.18 at 16h 55m 55s.xml">
-      <configuration name="MpSelectTest.testAR_selectPage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MpSelectTest_testAR_selectPage - 2020.06.18 at 16h 56m 09s.xml">
-      <configuration name="MpSelectTest.testAR_selectPage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MpSelectTest_testAR_selectPage - 2020.06.18 at 16h 57m 34s.xml">
-      <configuration name="MpSelectTest.testAR_selectPage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MpSelectTest_testAR_selectPage - 2020.06.18 at 16h 59m 21s.xml">
-      <configuration name="MpSelectTest.testAR_selectPage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MpSelectTest_testAR_selectPage - 2020.06.18 at 16h 59m 39s.xml">
-      <configuration name="MpSelectTest.testAR_selectPage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MpSelectTest_testAR_selectPage - 2020.06.18 at 17h 03m 40s.xml">
-      <configuration name="MpSelectTest.testAR_selectPage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MpSelectTest_testAR_selectPage - 2020.06.18 at 17h 04m 25s.xml">
-      <configuration name="MpSelectTest.testAR_selectPage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MpPageTest_testPage - 2020.06.18 at 17h 34m 23s.xml">
+    <history-entry file="MpPageTest_testPage - 2020.06.18 at 17h 38m 41s.xml">
       <configuration name="MpPageTest.testPage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MpPageTest_testPage - 2020.06.18 at 17h 39m 00s.xml">
+      <configuration name="MpPageTest.testPage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MpPageTest_testPage - 2020.06.18 at 17h 43m 58s.xml">
+      <configuration name="MpPageTest.testPage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MpPageTest_testSQLExplain - 2020.06.18 at 17h 52m 14s.xml">
+      <configuration name="MpPageTest.testSQLExplain" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MpPageTest_testSQLExplain - 2020.06.18 at 17h 54m 01s.xml">
+      <configuration name="MpPageTest.testSQLExplain" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MpPageTest_testSqlPerformance - 2020.06.18 at 18h 12m 18s.xml">
+      <configuration name="MpPageTest.testSqlPerformance" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MpPageTest_testSqlPerformance - 2020.06.18 at 18h 12m 52s.xml">
+      <configuration name="MpPageTest.testSqlPerformance" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MpPageTest_testOptimisticLocker - 2020.06.18 at 18h 24m 08s.xml">
+      <configuration name="MpPageTest.testOptimisticLocker" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MpPageTest_testOptimisticLocker - 2020.06.18 at 18h 26m 31s.xml">
+      <configuration name="MpPageTest.testOptimisticLocker" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MpPageTest_testOptimisticLocker - 2020.06.18 at 18h 27m 03s.xml">
+      <configuration name="MpPageTest.testOptimisticLocker" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18844000" />
+    <option name="totallyTimeSpent" value="22012000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -527,7 +622,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Web" order="5" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="6" weight="0.26206434" />
+      <window_info content_ui="combo" id="Project" order="6" weight="0.17426273" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32892805" />
       <window_info anchor="bottom" id="Spring" order="1" />
@@ -539,8 +634,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32892805" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.40528634" />
-      <window_info anchor="bottom" id="Debug" order="11" weight="0.46108663" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.7650514" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.6152717" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="14" />
@@ -565,7 +660,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Web" order="5" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.26206434" />
+      <window_info content_ui="combo" id="Project" order="6" weight="0.17426273" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32892805" />
       <window_info anchor="bottom" id="Spring" order="1" />
@@ -577,8 +672,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32892805" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.40528634" />
-      <window_info anchor="bottom" id="Debug" order="11" weight="0.46108663" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.7650514" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.6152717" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="14" />
@@ -705,24 +800,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-support/2.3/mybatis-plus-support-2.3-sources.jar!/com/baomidou/mybatisplus/mapper/BaseMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="241" column="35" selection-start-line="241" selection-start-column="35" selection-end-line="241" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-support/2.3/mybatis-plus-support-2.3-sources.jar!/com/baomidou/mybatisplus/plugins/Page.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="50" column="37" lean-forward="true" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kyl/fund/employee_manager/entity/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="21" column="45" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -737,6 +818,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
           <caret line="249" column="22" selection-start-line="249" selection-start-column="22" selection-end-line="249" selection-end-column="22" />
+          <folding>
+            <element signature="e#7016#7017#0" expanded="true" />
+            <element signature="e#7068#7069#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -785,13 +870,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/kyl/fund/employee_manager/mapper/EmployeeMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -837,17 +915,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/2.3/mybatis-plus-core-2.3-sources.jar!/com/baomidou/mybatisplus/plugins/SqlExplainInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="154" column="16" selection-start-line="154" selection-start-column="16" selection-end-line="154" selection-end-column="16" />
+          <folding>
+            <element signature="e#5949#5950#0" expanded="true" />
+            <element signature="e#5995#5996#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/kyl/fund/employee_manager/mapper/EmployeeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kyl/fund/employee_manager/entity/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+          <folding>
+            <element signature="e#1089#1090#0" expanded="true" />
+            <element signature="e#1119#1120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="63" column="19" lean-forward="true" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+        <state relative-caret-position="386">
+          <caret line="76" column="62" lean-forward="true" selection-start-line="76" selection-start-column="62" selection-end-line="76" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-support/2.3/mybatis-plus-support-2.3-sources.jar!/com/baomidou/mybatisplus/mapper/BaseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="127" column="12" selection-start-line="127" selection-start-column="12" selection-end-line="127" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/kyl/MpPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="68" selection-start-line="28" selection-start-column="68" selection-end-line="28" selection-end-column="68" />
+        <state relative-caret-position="253">
+          <caret line="64" column="34" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

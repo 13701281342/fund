@@ -12,11 +12,12 @@
         <result column="email" property="email" />
         <result column="gender" property="gender" />
         <result column="age" property="age" />
+        <result column="version" property="version" />
     </resultMap>
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-        id, last_name, email, gender, age
+        id, last_name, email, gender, age, version
     </sql>
 
 </mapper>

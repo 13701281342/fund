@@ -1,5 +1,6 @@
 package com.kyl.fund.employee_manager.entity;
 
+import com.baomidou.mybatisplus.annotations.Version;
 import com.baomidou.mybatisplus.enums.IdType;
 import com.baomidou.mybatisplus.annotations.TableId;
 import com.baomidou.mybatisplus.annotations.TableId;
@@ -44,6 +45,11 @@ public class Employee extends Model<Employee> {
      * 类型
      */
     private Integer age;
+    /**
+     * 使用乐观锁对version进行标注
+     */
+    @Version
+    private Integer version;
 
     @Override
     protected Serializable pkVal() {
