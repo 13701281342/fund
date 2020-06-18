@@ -55,6 +55,13 @@
 		<property name="typeAliasesPackage" value="com.kyl.fund.*.entity"/>
 		<!--注入mybatsiPlus的全局策略配置-->
 		<property name="globalConfig" ref="globalConfiguration"/>
+		<!--插件注册-->
+		<property name="plugins">
+			<list>
+				<!--注册分页插件-->
+				<bean class="com.baomidou.mybatisplus.plugins.PaginationInterceptor"/>
+			</list>
+		</property>
 	</bean>
 	<!--配置mybatis 扫描mapper接口的路径-->
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
