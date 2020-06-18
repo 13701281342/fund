@@ -9,7 +9,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 /**
  * 员工管理测试
  */
-public class EmployeeManagerTest {
+public class MpUpdateTest {
 
     private ApplicationContext context
                 = new ClassPathXmlApplicationContext("applicationContext.xml");
